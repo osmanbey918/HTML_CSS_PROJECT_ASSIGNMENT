@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        tr,th,td {
+            border: 2px solid rgb(172, 170, 170);
+            height: 25px;width: 20px;
+            text-align: center;
+            border-style: inset;
+        }
+        table {
+            border: 2px solid rgb(172, 170, 170);
+
+        }
+        .nav {
+            margin-left: 50px;
+            color: rgb(255, 38, 0);
+            font-weight: bold;
+            font-size: 1.5em;
+            
+        }
+    </style>
+</head>
+<body>
+   <center>
+    <a href="table.html" class="nav">Table</a>
+    <a href="index.html" class="nav">Form</a>
+    <table>
+       <p>"Lan's Timetable"</p>
+       <td></td>
+       <td></td>
+       <td colspan="3">Morning</td>
+       <td>Lunch</td>
+       <td colspan="4">Afternoon</td>
+       <td colspan="3">Evening</td>
+       <tr>
+        <td></td>
+        <td></td>
+        <td colspan="">9-10 Am</td>
+        <td>10-11 am</td>
+        <td>11-12  am</td>
+        <td>1-2 pm</td>
+        <td>2-3 pm</td>
+        <td>3-4 pm</td>
+        <td>4-5 pm </td>
+        <td rowspan="" colspan="">5-6 pm</td>
+        <td>6-7 pm</td>
+        <td>7-8 pm</td>
+        <td>8-9 pm</td>
+        
+       </tr>
+       <tr>
+        <td rowspan="2" >work</td>
+       <td rowspan="1">Monday</td>
+        <td colspan="3">development meeting</td><td></td>
+        <td colspan="3">client meeting</td><td>commute</td><td colspan="3">free</td>
+       </tr>
+   <tr><td>tuesday</td><td colspan="3">in office</td><td></td><td colspan="7">in office</td></tr>
+   <tr><td rowspan="2">lecture</td><td>wednesday</td><td colspan="3">CSC205</td><td></td><td colspan="7">preparation</td></tr>
+   <tr><td>thursday</td><td colspan="3">MAM200</td><td></td><td colspan="3">tutorials for MAM200</td><td colspan="4">free</td></tr>
+   <tr><td>research</td><td>friday</td><td colspan="3">research</td><td></td><td colspan="7">research</td></tr>
+    </table>
+   
+   </center>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: rgba(219, 221, 221, 0.775);
+
+        }
+        header {
+           height: 72px;
+           background-color: rgb(255, 255, 255);
+        }
+        a {
+            color: brown;
+            font-size: 1.2em;
+            position: relative;
+           left: 450px; 
+        }
+        input, textarea, select {
+            margin-left: 150px;
+            height: 24px;
+            width: 450px;
+            display: block;
+            align-content: center;
+            justify-content: center;
+           position: relative;
+           bottom: 15px;
+        }
+        textarea {
+            height: auto;
+        }
+        div.radio {
+           display: flex;
+            align-content: center;
+            justify-content: center;
+            width: 14px;
+            height: 24px;
+            margin-left: 200px;
+            top: -15px;
+            position: relative;
+        }
+        .radio input {
+            margin-left: 10px;
+            top: -5px;
+        }
+        div.checkbox {
+            margin-left: 170px;
+            position: relative;
+           bottom: -5px;
+        }
+        .checkbox input {
+            margin-left: -15px;
+            height: auto;
+            width: auto;
+        }
+        .checkbox label {
+            position: relative;
+            bottom: 35px;
+        }
+        button {
+            background-color: rgb(40, 238, 40);
+            color: white;
+            height: 36px;
+            width: 96px;
+            border: none;
+            border-radius: 10px;
+        }
+        .nav {
+            margin-left: 50px;
+            color: rgb(255, 38, 0);
+            font-weight: bold;
+            font-size: 1.5em;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <a href="table.html" class="nav">Table</a>
+    <a href="index.html" class="nav">Form</a>
+    <header>
+        <a href=""><strong>Student Registration Form</strong></a>
+    </header>
+    <main>
+        <div class="form">
+            <label >First Name:</label>
+            <input type="text" placeholder="Enter your first name">
+            <label>Last Name:</label>
+            <input type="text"  placeholder="Enter your last name">
+            <label>Email:</label>
+            <input type="email"  placeholder="it should contain @">
+            <label>Mobile:</label>
+            <input type="number"  placeholder="Only 10 digits allowed">
+            <label>Gender:</label>
+            <div class="radio">
+                <input type="radio">  
+              <label>Male</label>
+            <input type="radio">  
+            <label>Female</label>
+          </div>
+
+            <label>Date of Birth:</label>
+            <input type="date">
+            <label>Address:</label>
+            <textarea cols="60" rows="10"></textarea>
+            <label>City:</label>
+
+
+            <input type="text">
+            <label>Area Pin:</label>
+            <input type="number">
+            <label>State:</label>
+            <input type="text">
+            <label>Qualification:</label>
+            <select>
+                <option>Select Qualification</option>
+                <option></option>
+            </select>
+            <label>Specialization:</label>
+            <div class="checkbox">
+                
+            <input type="checkbox"><label>Computer Science</label>
+            <input type="checkbox"><label>Information Technology</label>
+            <input type="checkbox"><label>Computer Architecture</label>
+            <input type="checkbox"><label>Tele Communication</label>
+
+            </div>
+            <label>Password:</label>
+            <input type="password">
+            <button>Registered</button>
+            
+        </div>
+    </main>
+    
+</body>
+</html>

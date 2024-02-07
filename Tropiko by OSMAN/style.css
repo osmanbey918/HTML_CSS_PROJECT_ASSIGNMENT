@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*----------------Menu------------------------ StyleSheet-----------------------------Sections------------*/
+
+.main-container {
+    background-color:  rgba(237, 230, 230, 0.173);
+    background-size: cover;
+    padding-left: 2%;
+}
+nav {
+    margin-left: 35%;
+}
+nav a {
+    margin-left: 40px;
+    font-size: 1.4em;
+    color: black;
+    text-decoration: none;
+}
+.sec-nav {
+    position: relative;
+    top: -45px;
+}
+.h1 {
+    font-size: 2.5em;
+    font-weight: bold;    
+}
+h1 {
+    font-size: 3em ;
+    font-weight: bold;    
+}
+.p1 {
+    width: 35%;
+}
+.text-button {
+    margin-top: 130px;
+}
+.btn-1 {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 85, 0);
+    color: white;
+    border: none;
+}
+#btn-1 {
+    background-color: black;
+}
+.img1 {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+.img2 {
+    position: relative;
+    top: 10px
+}
+/*--------------------------------Services ---------------------------- StyleSheet-----------------------------------------------*/
+.h1-p {
+    text-align: center;
+}
+.Section-Services {
+    margin-top: 120px;
+    background-color: white;
+    padding-left: 0%;
+}
+.main {
+    margin-top: 10px;
+
+}
+.Services-Cards {
+    display: inline-flex;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+.card {
+    height: 370px;
+    width: 350px;
+    text-align: center;
+    margin-left: 2%;
+    border: outset;
+    background-color: white;
+}
+.card label {
+    color: rgb(255, 64, 0);
+    padding-top: 55px;
+}
+.card img {
+    padding-top: 25px;
+}
+.card p {
+    line-height: 1.5em;
+}
+.read_more_btn {
+    text-align: center;
+    margin-top: 100px;
+}
+.read_more_btn button {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+
+/*Fresh-------------------------------Fruits-----------------------Sections---------------------------------CSS*/
+.Section-Fresh-Fruits {
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.fruit-head {
+    text-align: center;
+}
+.Fuits h3,.Fuits p {
+    margin-top: 40px;
+    width: 50%;
+}
+.Fuits button {
+    height: 32px;
+    width: 72px;
+    background-color: black;
+    color: white;
+}
+.Fuits img {
+    margin-left: 950px;
+    margin-top: -120px;
+}
+/*----------------Testimonial ---------------------------- StyleSheet-----------------------------------Sections------------*/
+
+.Section-Testimonial {
+    margin-top: 150px;
+}
+.Testimonial-main {
+    text-align: center;
+}
+.Testimonial-main img {
+    margin-top: 50px;
+}
+.Testimonial-main h2 {
+    margin-bottom: 30px;
+}
+/*----------------Contact Us ---------------------------- StyleSheet-----------------------------------Sections------------*/
+
+.Section-Contact-us {
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.Section-Contact-us-main form {
+    margin-top: 80px;
+}
+
+.Section-Contact-us-main form input {
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 25px;
+    font-size: 1.2em;
+}
+.Section-Contact-us-main img {
+    float: right;
+}
+.Section-Contact-us-main form button {
+    background-color: rgb(255, 77, 0);
+    color: white;
+    height: 36px;
+    width: 78px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.Section-Footer {
+    margin-left: 20px;
+    margin-top: 250px;
+}
+.Footer-main div {
+    display: inline-flex;
+    width: 8%;
+    height: auto;
+    margin-left: 12%;
+}
+.hed {
+    display: block;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.img-contact {
+    width: 60%;
+    flex-direction: column;
+}
+.img-contact p {
+    font-weight: bold;
+    font-size: 1.8em;
+    width: 70%;
+    margin-right: -40px;
+}
+.img-icon img {
+    margin-right: 8px;
+}
+span input {
+    height: 24px;
+}
+span button {
+    height: 32px;
+    width: 108px;
+    background-color: rgb(255, 77, 0);
+    color: white;
+    border: none;
+}
+/*----------------Last--------Only----------Footer---------- StyleSheet-----------------------------------Sections------------*/
+
+footer {
+    background-color: rgba(192, 187, 187, 0.325);
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 20px;
+    height: 96px;
+    padding-top: 40px;
+}
+/*------------------------------------------------------Completed--------------------------------------------------------------*/
+
+

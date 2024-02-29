@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.body {
+    background: rgb(1, 30, 50);
+}
+.nav-bar {
+    height: 100px;
+    padding-top: 20px;
+}
+nav {
+    float: right;
+    margin-right: 20px;
+}
+.nav-bar .logo {
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgb(0, 255, 217);
+    font-size: 1.8em;
+    font-family: fantasy;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(0, 255, 217, 0.485);
+    margin-left: 90px;
+}
+.mono {
+    color: rgb(0, 255, 217);
+    font-family: monospace;
+}
+nav a {
+   margin-left: 25px;
+   text-decoration: none;
+   font-size: 1.2em;
+    color:rgba(255, 255, 255, 0.615);
+    font-family: monospace;
+}
+nav a:hover {
+    color: rgb(0, 255, 217);
+}
+nav a button {
+    height: 32px;
+    font-size: 1em;
+}
+.text-menu {
+    margin-left: 90px;
+}
+.text-menu p {
+    width: 50%;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 1.4em;
+}
+.get-btn ,.res-btn {
+    height: 52px;
+    width: 146px;
+    font-size: 1.1em;
+    border: 1px solid  rgb(8, 240, 206);
+    background: transparent;
+    color: rgb(8, 240, 206);
+}
+.res-btn:hover {
+    background:  rgba(8, 240, 205, 0.11);
+}
+.get-btn:hover {
+    background:  rgba(8, 240, 205, 0.11);
+
+}
+.res-btn {
+    height: 42px;
+}
+.about-section {
+    position: relative;
+    width: 70%;
+    margin-left: 90px;
+}
+.about-section p {
+    color: rgba(255, 255, 255, 0.636);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 1.4em;
+    width: 75%;
+}
+.about-section .img1 {
+    position: absolute;
+    left: 95%;
+    top: 180px;
+    outline: 2px solid rgb(8, 240, 206);
+    outline-offset: 20px;
+}
+.list-container {
+    display: flex;
+    margin-top: 50px;
+}
+.bl {
+    color: rgb(0, 255, 217);
+    display: block;
+}
+.list2 {
+    margin-left: 120px;
+}
+.list55 {
+    color: rgba(224, 224, 224, 0.636);
+    font-family: monospace;
+    font-size: 1em;
+}
+.ppp {
+    background-color: rgb(1, 39, 78);
+    font-size: 1.2em;
+    width: 600px;
+    position: absolute;
+    bottom: 200px;
+    border-radius: 5px;
+}
+
+.txt-box {
+    color: rgba(224, 224, 224, 0.636);
+    height: 20px;
+    width: 30px;
+}
+.txt-box-2 {
+    position: absolute;
+    bottom: 130px;
+    width: 600px;
+
+
+}
+.img2 {
+    margin-left: 400px;
+    z-index: -1;
+    height: 290px;
+    width: 660px;
+    background-image: url('./photos/AIPodcasteGeneratorShaded.3fdf48f2afca6d0087c6.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+.img2:hover{
+    opacity: 1;
+    background-image: url('./photos/AIPodcasteGenerator.cf943fff109f713cc4d2.png');
+    background-size: cover;
+}
+.p04 {
+    position: relative;
+    margin-left: 700px;
+
+}
+.img3 {
+    margin-left: -500px;
+    background-image: url('./photos/JAVADSAShaded.e2e840d0ad40decf0dc0.png');
+}
+.img3:hover {
+    background-image: url('./photos/JAVADSA.8c9bdb266568538ad724.png');
+}
+.txt-box2 {
+    margin-left: 180px;
+
+}
+.p05 {
+    position: relative;
+    margin-left: 90px;
+}
+.img5 {
+    background-image: url('./photos/BankAppShaded.a961548295e39efa458b.png');
+}
+.img5:hover {
+    background-image: url('./photos/BankApp.0bcd60851e9dccf3ad99.png');
+}
+.img6 {
+    background-image: url('./photos/RealEstateMobileAppShaded.6e1b5c293525fdf39efb.png');
+}
+.img6:hover {
+    background-image: url('./photos/RealEstateMobileApp.a15ba87c3fca2dcc6fab.png');
+}
+.img7 {
+    background-image: url('./photos/MERN-BootcampShaded.425ed99ba42458bfa9f5.jpg');
+}
+.img7:hover {
+    background-image: url('./photos/MERN-Bootcamp.33745c128f550285b402.jpg');
+}
+.project-contaner {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 350px 350px 350px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.project1 {
+    background-color: rgb(1, 39, 78);
+    transition: 1s;
+}
+.project1:hover {
+    margin-top: -20px;
+
+}
+.project1 > p {
+    padding: auto;
+    text-align: center;
+}
+.whts {
+    text-align: center;
+    margin-top: 200px;
+}
+.last1 {
+    color: rgba(240, 248, 255, 0.379);
+}
+@media only screen and (max-width: 600px) {
+    .about-section .img1 {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-bottom: 50px;
+        height: 380px;
+        width: 200px;   
+    }
+    .ppp {
+        width: 300px;
+        bottom: -80px;
+    }
+    .txt-box-2 {
+        position: absolute;
+        bottom: -190px;
+        width: 300px;
+    }
+    .img2 {
+        margin-left: 00px;
+        z-index: -1;
+        height: 150px;
+        width: 330px;
+    }
+    .other-project {
+        margin-top: 200px;
+    }
+    .project-contaner {
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 300px 300px;
+    }
+    .shom {
+        margin-top: 300px;
+    }
+    .last1 {
+        text-align: center;
+    }
+    .p04 ,.p05 {
+        margin-left: 0px;
+        margin-top: 200px; 
+    }
+    .for-margin {
+        margin-left: 90px;
+    }
+}
+.icons-side {
+    width: 100px;
+    position: fixed;
+    z-index: 99999999;
+    height: 100%;
+    padding-left: 20px;
+}
+.line {
+    height: 160px;
+    margin-top: 300px;
+    width: 2px;
+    margin-left: 10px;
+    border: 1px solid rgba(228, 228, 228, 0.677);
+}
+.icons-side .ico {
+    width: 30px;
+    height: 30px;
+    z-index: 999999;
+    margin-top: 20px;
+    color: rgba(240, 248, 255, 0.764);
+}
+.iconss {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.icons-side .ico:hover {
+    color: aquamarine;
+}

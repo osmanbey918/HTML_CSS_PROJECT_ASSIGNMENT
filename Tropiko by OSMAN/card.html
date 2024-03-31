@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+ /*--------------------------------Services ---------------------------- StyleSheet-----------------------------------------------*/
+* {
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+   font-family: sans-serif; 
+}
+ .h1-p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: green;
+}
+.h1-p div {
+    border-radius: 20px;
+    width: 60px;
+    align-self: center;
+    border-bottom: 5px solid green;
+    margin-top: 15px;
+}
+.Section-Services {
+    margin-top: 120px;
+    background-color: white;
+    padding-left: 0%;
+}
+
+.Services-Cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    height: auto;
+    width: 290px;
+    text-align: center;
+    margin-left: 2%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+
+}
+
+.card label {
+    padding: auto;
+}
+.card img {
+    padding-top: 25px;
+}
+
+.card-read-btn {
+    width: 100%;
+    background: black;
+    color: white;
+    height: 38px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn-2 {
+    background: rgb(13, 251, 239);
+}
+.btn-3 {
+    background: rgb(245, 180, 1);
+}
+.card-read-btn select {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.read_more_btn {
+    text-align: center;
+    margin-top: 50px;
+}
+.read_more_btn button {
+    padding: 10px 20px 10px 20px;
+    text-decoration: underline;
+    color: green;
+    background: transparent;
+    border: none;
+}
+    </style>
+</head>
+<body>
+     <!----------------------Services---------------Section----------------Start--------------------------------------------------------->
+     <div class="Section-Services" id="Section-Services">
+        <div class="h1-p">
+            <h1>SERVICES</h1>
+            <div></div>
+        </div>
+
+        <div class="Services-Cards">
+                <!--services---Card-->
+            <div class="card">
+             <img src="./Images/card-item-1.png"><br> 
+             <label>Apply for Passport</label><br>
+              <button type="button" class="card-read-btn">Read More <select></select></button>
+            </div>
+
+            <div class="card ">
+             <img src="./Images/card-item-2.png"><br>
+             <label>Family & Child Registration</label><br>
+               <button type="button" class="card-read-btn btn-2">Read More <select></select></button>
+            </div>   
+
+            <div class="card">
+             <img src="./Images/card-item-3.png"><br>
+             <label>Immigration</label><br> 
+             <button type="button" class="card-read-btn  btn-3">Read More <select></select></button>
+            </div>
+
+            <div class="card">
+             <img src="./Images/card-item-3.png"><br>
+             <label>Apply for Visa</label><br>
+             <button type="button" class="card-read-btn">Read More <select></select></button>
+            </div>
+        </div>
+        <div class="read_more_btn">
+         <a><button type="button">Show More</button></a>
+        </div>
+    </div>
+    <!----------------------Services---------------Section----------------End--------------------------------------------------------->
+
+</body>
+</html>

@@ -48,9 +48,7 @@ h1 {
     background-color: black;
 }
 .img1 {
-    position: absolute;
-    left: 45%;
-    top: 25%;
+    float: right;
 }
 .img2 {
     position: relative;
@@ -67,20 +65,23 @@ h1 {
 }
 .main {
     margin-top: 10px;
-
 }
 .Services-Cards {
-    display: inline-flex;
-    margin-left: 12%;
-    margin-top: 4%;
+    display: flex;
+    /* margin-left: 12%;
+    margin-top: 4%; */
+    justify-content: center;
 }
 .card {
     height: 370px;
     width: 350px;
     text-align: center;
     margin-left: 2%;
-    border: outset;
     background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 .card label {
     color: rgb(255, 64, 0);
@@ -94,7 +95,7 @@ h1 {
 }
 .read_more_btn {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .read_more_btn button {
     padding: 10px 20px 10px 20px;
@@ -210,10 +211,8 @@ span button {
 /*----------------Last--------Only----------Footer---------- StyleSheet-----------------------------------Sections------------*/
 
 footer {
-    background-color: rgba(192, 187, 187, 0.325);
+    background-color: rgba(192, 187, 187, 0.655);
     text-align: center;
-    margin-top: 150px;
-    margin-left: 20px;
     height: 96px;
     padding-top: 40px;
 }
